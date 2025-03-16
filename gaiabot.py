@@ -189,7 +189,7 @@ def run_bot(api_key: str):
                 logging.error(f"Failed to process question: {str(e)}")
                 continue
 
-def main()
+def main():
     api_key = input("Enter your API key: ")
     run_bot(api_key)
 
